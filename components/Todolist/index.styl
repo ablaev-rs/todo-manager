@@ -1,0 +1,66 @@
+.taskBlock
+  display flex
+  align-items center
+  justify-content center
+  flex-direction column
+
+.tasklist
+  width gutter(80)
+  height gutter(5)
+  border solid 1px #999999
+  border-radius 6px
+  padding gutter(1)
+  flex-direction row
+  margin-bottom gutter(1)
+  justify-content space-between 
+  align-items center
+  &:hover
+    background #eee
+
+.taskButtons
+  flex-direction row
+
+.taskHeader
+  font-size 16px
+
+.taskHeaderClose
+  font-size 16px
+  color #999
+
+
+.btn 
+  border-radius gutter(0.5)
+
+.editBtn, .closeBtn, .openBtn, .saveBtn
+  padding gutter(0.2) gutter(1)
+  margin 0 gutter(0.5) 0 0
+
+.editBtn
+  background $SECONDARY
+
+.closeBtn
+  background orange
+
+.openBtn
+  background #ddd
+
+.saveBtn
+  background  #4fc3f7   
+
+.deleteBtn
+  background $PRIMARY
+  padding gutter(0.2) gutter(1)
+
+
+.filter 
+  justify-content center
+  flex-direction row
+
+  .filterText 
+    margin gutter(1)
+
+.field
+  background  #fff  
+  border-radius 6px
+  padding 5px 10px
+  font-size: 16px
