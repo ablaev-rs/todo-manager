@@ -6,7 +6,7 @@
 
 .tasklist
   width gutter(80)
-  height gutter(5)
+  min-height gutter(5)
   border solid 1px #999999
   border-radius 6px
   padding gutter(1)
@@ -16,6 +16,11 @@
   align-items center
   &:hover
     background #eee
+
+
+
+
+
 
 .taskButtons
   flex-direction row
@@ -61,6 +66,6 @@
 
 .field
   background  #fff  
-  border-radius 6px
-  padding 5px 10px
+  border-radius gutter(0.5)
+  padding gutter(0.5) gutter(1)
   font-size: 16px

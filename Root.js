@@ -27,22 +27,12 @@ export default observer(function Root () {
   let [task, setTask] = useState([
       {
         id: 2,
-        name: "close second task",
+        name: "first default task",
         status: "close"
       },
       {
         id: 3,
-        name: "close qwerty task",
-        status: "close"
-      },
-      {
-        id: 4,
-        name: "new asdfghj task",
-        status: "open"
-      },
-      {
-        id: 5,
-        name: "new zxcvbnm task",
+        name: "second default task",
         status: "open"
       },
   ]);

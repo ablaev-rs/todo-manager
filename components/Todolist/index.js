@@ -4,6 +4,7 @@ import { observer } from 'startupjs'
 import './index.styl'
 
 export default observer(function Todolist ({ task, newEditValue, setNewEditValue, edit, changeEditStatus, saveEditedTask, closeTask, deleteTask, openTask }) {
+  
   const [taskFilter, setTaskFilter] = useState({
     active: false,
     type: 'open'

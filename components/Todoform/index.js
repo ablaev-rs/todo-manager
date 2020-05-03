@@ -8,8 +8,10 @@ export default observer(function Todoform ({ addTask }) {
 const [value, setValue] = useState('');
 
 function enterTaskHandler() {
-    addTask(value)
-    setValue('')
+    if(value) {        
+        addTask(value)
+        setValue('')
+    }
 }
 
 return pug`
